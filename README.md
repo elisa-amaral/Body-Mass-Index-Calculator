@@ -4,7 +4,7 @@ This project calculates the Body Mass Index (BMI) based on the standard BMI refe
 
 ## Project Link
 
-**coming soon**
+**https://bmi-calculator-built-with-javascript.netlify.app/**
 
 ## Screenshot 1
 
