@@ -12,7 +12,7 @@ This project calculates the Body Mass Index (BMI) based on the standard BMI refe
 
 ## Screenshot 2
 
-![Screenshot](assets/img/Screenshot_2.jpeg)
+![Screenshot](assets/img/Screenshot_2.jpg)
 
 ## Technology Stack
 
