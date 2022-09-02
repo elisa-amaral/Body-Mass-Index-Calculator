@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Body Mass Index Calculator built with HTML, CSS and JavaScript</title>
+    <link rel="shortcut icon" href="./assets/img/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+
+    <section class="container">
+
+        <img src="./assets/img/icon.svg" alt="Person doing physical exercises">
+
+        <h1 id="h1"><span class="addUnderscore">B</span>ody <span class="addUnderscore">M</span>ass <span class="addUnderscore">I</span>ndex Calculator</h1>
+
+        <h2 class="h2">BMI Reference Table</h2>
+
+        <table>
+            <thead>
+                <th>BMI</th>
+                <th>Classification</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> < 18.5</td>
+                    <td>Underweight</td>
+                </tr>
+
+                <tr>
+                    <td>18.5 — 24.9</td>
+                    <td>Normal weight</td>
+                </tr>
+
+                <tr>
+                    <td>25.0 — 29.9</td>
+                    <td>Overweight</td>
+                </tr>
+
+                <tr>
+                    <td>30.0 —29.9</td>
+                    <td>Obese (Class I)</td>
+                </tr>
+
+                <tr>
+                    <td>35.0 — 39.9</td>
+                    <td>Obese (Class II)</td>
+                </tr>
+
+                <tr>
+                    <td> ≥ 40.0</td>
+                    <td>Obese (Class III)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="h2">Calculate Your BMI</h2 class="h2">
+
+        <span id="warning">
+            *Please use a dot (<strong>.</strong>) as decimal separator if needed
+        </span>
+
+        <form id="form">
+            <label for="weight">Weight in kilograms</label>
+            <input type="text" id="weight">
+
+            <label for="height">Height in meters</label>
+            <input type="text" id="height">
+
+            <button type="submit"><span id="buttonTitle">Calculate</span></button>
+        </form>
+
+        <!-- <h2 class="h2">Results:</h2> -->
+
+        <div id="result">
+
+        </div>
+
+    </section>
+
+    <footer class="footer white-bg">
+        <p>Built with <span id="heartEntity">&#10084;</span> by <a href="https://beacons.ai/elisa_amaral"
+                target="_blank">Elisa Amaral</a></p>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

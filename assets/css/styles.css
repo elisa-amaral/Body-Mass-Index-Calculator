@@ -1,0 +1,257 @@
+:root 
+{
+  --primary-color: #4d0270;
+  --dark-primary-color: #29023a;
+  --secondary-color: crimson;
+  --yellow-color: #fddf7f;
+  --light-yellow-color:#FFFF99;
+  --white-color: #FFFFFF;
+  --blue-color: #1900d3;
+  --gray-color: #b1b1b1;
+  --light-gray-color: #e0e0e0;
+  --green-color: #6cffb6;
+  --red-color: #ff9696;
+}
+
+* 
+{
+  outline: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html 
+{
+  font-size: 62.5%;
+}
+
+body 
+{
+  margin: 0;
+  background: var(--primary-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+input, 
+textarea, 
+button 
+{
+  font-family: inherit;
+}
+
+#h1 
+{
+  text-align: center;
+  font-size: 2.5rem;
+  background: var(--yellow-color);
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.h2,
+.result-h2
+{
+  text-align: center;
+  font-size: 2.2rem;
+  background: var(--light-gray-color);
+  padding: 1rem;
+}
+
+.result-h2
+{
+  margin-top: 3.5rem;
+}
+
+.addUnderscore
+{
+  text-decoration: underline;
+}
+
+table 
+{
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin-bottom: 3rem;
+}
+
+table thead th
+{
+  background: var(--light-gray-color);
+}
+
+table thead th,
+table tbody td 
+{
+  text-align: left;
+  border: 0.2rem solid var(--gray-color);
+  padding: 1rem;
+}
+
+.container 
+{
+  max-width: 64rem;
+  margin: 5rem auto;
+  background: #fff;
+  padding: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+}
+
+.container img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9rem;
+  height: 9rem;
+}
+
+form input,
+form label,
+form button 
+{
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+form input 
+{
+  font-size: 2.2rem;
+  height: 5rem;
+  padding: 0 2rem;
+}
+
+input#weight
+{
+  margin-bottom: 3rem;
+}
+
+form input:focus 
+{
+  outline: 0.2rem solid var(--yellow-color);
+}
+
+form button 
+{
+  border: none;
+  background: var(--yellow-color);
+  color: var(--dark-primary-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  height: 5rem;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+form button:hover 
+{
+  background: var(--light-yellow-color);
+  color: var(--dark-primary-color);
+}
+
+#buttonTitle
+{
+  font-size: 2.2rem;
+}
+
+.white-bg 
+{
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+
+.footer p 
+{
+  color: #000;
+  text-align: center;
+  font-size: 2.1rem;
+  margin: 0;
+  padding: 2rem;
+  font-weight: 700;
+}
+
+
+.footer a 
+{
+  text-decoration: underline;
+  color: var(--blue-color);
+}
+
+#heartEntity 
+{
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+}
+
+#warning
+{
+  display: 
+  block;
+  color: var(--primary-color);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.correctResult
+{
+  margin-top: 2rem;
+  padding: 3rem;
+  font-weight: 600;
+  background: var(--green-color);
+}
+
+.invalidInputs
+{
+  margin-top: 3rem;
+  padding: 2rem 2rem;
+  font-weight: 600;
+  background: var(--red-color);
+}
+
+
+
+@media (max-width: 800px)
+{
+  body 
+  {
+    font-size: 1.7rem;
+  }
+
+  .container
+  {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  #h1
+  {
+    font-size: 2.1rem;
+    background: var(--yellow-color);
+    padding: 0.5rem;
+  }
+
+  .h2, 
+  .result-h2
+  {
+    font-size: 1.9rem;
+  }
+
+  .footer p 
+  {
+    font-size: 1.9rem;
+  }
+
+  #heartEntity
+  {
+    font-size: 2rem;
+  }
+
+}
