@@ -6,11 +6,11 @@ This project calculates the Body Mass Index (BMI) based on the standard BMI refe
 
 **coming soon**
 
-## Screenshot 1: Intro Template
+## Screenshot 1
 
 ![Screenshot](assets/img/Screenshot_1.jpg)
 
-## Screenshot 2: Flexbox Template
+## Screenshot 2
 
 ![Screenshot](assets/img/Screenshot_2.jpeg)
 
