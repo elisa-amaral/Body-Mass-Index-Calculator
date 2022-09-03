@@ -1,10 +1,10 @@
 # Body Mass Index Calculator built with JavaScript (Vanilla JS)
 
-This project calculates the Body Mass Index (BMI) based on the standard BMI reference table that uses the weight in kilograms and height in meters to generate the results. The BMI Calculator was coded in HTML, CSS and JavaScript.
+This project calculates the Body Mass Index (BMI) based on the standard BMI reference table that uses the weight in kilograms and height in meters to generate the results. The BMI Calculator was coded in HTML, CSS and JavaScript (Vanilla JS).
 
 ## Project Link
 
-**coming soon**
+**https://bmi-calculator-built-with-javascript.netlify.app/**
 
 ## Screenshot 1
 
@@ -18,4 +18,4 @@ This project calculates the Body Mass Index (BMI) based on the standard BMI refe
 
 + HTML
 + CSS
-+ JavaScript
++ JavaScript (Vanilla JS)
