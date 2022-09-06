@@ -185,6 +185,11 @@ form button:hover
   color: var(--blue-color);
 }
 
+.footer a:hover
+{
+  color: #03bb03;
+}
+
 #heartEntity 
 {
   color: var(--secondary-color);
