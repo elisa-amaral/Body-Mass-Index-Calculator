@@ -1,6 +1,6 @@
 # Body Mass Index Calculator
 
-This project is a Body Mass Index Calculator coded in JavaScript (Vanilla JS), HTML and CSS. The project was developed in responsive design. The BMI Calculator generates the Body Mass Index (BMI) and the classification based on the standard BMI reference table that uses the weight in kilograms and height in meters to get the final results (BMI + classification).
+This project is a Body Mass Index Calculator coded in JavaScript, HTML and CSS. The project was developed in responsive design. The BMI Calculator generates the Body Mass Index (BMI) and the classification based on the standard BMI reference table that uses the weight in kilograms and height in meters to get the final results (BMI + classification).
 
 ## Project Link
 
@@ -16,6 +16,7 @@ This project is a Body Mass Index Calculator coded in JavaScript (Vanilla JS), H
 
 ## Technology Stack
 
++ JavaScript
 + HTML
 + CSS
-+ JavaScript (Vanilla JS)
+
