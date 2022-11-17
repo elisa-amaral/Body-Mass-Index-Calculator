@@ -2,7 +2,7 @@
 
 This project is a Body Mass Index Calculator developed in responsive design. The BMI Calculator generates the Body Mass Index (BMI) and the classification based on the standard BMI reference table that uses the weight in kilograms and height in meters to get the final results (BMI + classification).
 
-## Project Link
+## Project Website
 
 **https://bmi-calculator-built-with-javascript.netlify.app/**
 
